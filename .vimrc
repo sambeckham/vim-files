@@ -2,7 +2,7 @@ set nocompatible
 
 call pathogen#infect()
 
-set number
+set relativenumber
 set expandtab
 set shiftwidth=4
 set softtabstop=4
