@@ -28,3 +28,8 @@ map <F10> :NERDTreeToggle<CR>
 
 " Current file in nerdtree  
 map <F9> :NERDTreeFind<CR>
+
+"key to insert mode with paste using F2 key  
+map <F2> :set paste<CR>i  
+" Leave paste mode on exit  
+au InsertLeave * set nopaste 
